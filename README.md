@@ -40,6 +40,16 @@ Other browsers may be compatible but there are not tested with *Karma*.
 
 * Output manager (the output is delegating to the *console*)
 
+## The project files
+
+| Nom | Description  |
+|-----|--------------|
+| logchief.js  | The main javascript file |
+| logchief-angular.js  | Replace the angular js with a logchief logger named *angular* |
+| logchief-test.js  | The tests (must not be included in a web page, for testing only) |
+| dist/logchief.min.js  | The minification of logchief.js |
+| dist/logchief.full.min.js  | The minification of logchief.js and logchief-angular.js |
+
 ## How to build
 
 Install npm (tested with nodejs 4+).
