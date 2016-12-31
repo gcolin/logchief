@@ -1,0 +1,5 @@
+node_modules/
+jsdoc/
+coverage/
+bower_components/
+dist/
