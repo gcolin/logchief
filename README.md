@@ -24,7 +24,7 @@ if(mylogger.isInfo) {
 * Google Chrome
 * Firefox
 * Edge
-* Internet Explorer 7, 8, 9, 10, 11
+* Internet Explorer 8, 9, 10, 11
 
 Other browsers may be compatible but there are not tested with *Karma*.
 

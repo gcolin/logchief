@@ -15,7 +15,7 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-           'lib-test/underscore-min.js',
+           'node_modules/underscore/underscore-min.js',
 	   'logchief.js',
 	   'logchief-test.js'
     ],
@@ -64,7 +64,7 @@ module.exports = function(config) {
     browsers: ['Chrome'],
     //browsers: ['Firefox'],
     //browsers: ['IE7'],
-    //browsers: ['IE', 'IE8', 'IE9','IE10','IE7','Firefox', 'Chrome','Edge'],
+    //browsers: ['IE', 'IE8', 'IE9','IE10','Firefox', 'Chrome','Edge'],
     customLaunchers: {
       IE10: {
         base: 'IE',
@@ -77,10 +77,6 @@ module.exports = function(config) {
       IE8: {
         base: 'IE',
         'x-ua-compatible': 'IE=EmulateIE8'
-      },
-      IE7: {
-        base: 'IE',
-        'x-ua-compatible': 'IE=EmulateIE7'
       }
     },
 
