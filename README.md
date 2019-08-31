@@ -60,6 +60,12 @@ In the cloned repository, download the dependencies
 npm install
 ```
 
+Install grunt
+
+```bash
+npm install -g grunt-cli
+```
+
 ### Build the documentation and the minified files
 
 ```bash
